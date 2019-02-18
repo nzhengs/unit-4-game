@@ -1,0 +1,25 @@
+header img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+body{
+    background-color:rgb(173, 130, 130);
+    color: burlywood;
+}
+.navbar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+.container{
+    margin-top: 20px;
+}
+.crystal>img{
+    width:100px;
+    height: 100px;
+    margin: 10px;
+}
