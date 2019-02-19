@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="assets/javascript/jquery-3.3.1.slim.min.js"></script>
     <!-- <link
       rel="stylesheet"
@@ -29,8 +29,11 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-md-6" style="background-color: rebeccapurple">
-          <p style="font-weight:bold;">Rules</p>
+        <div
+          class="col-md-6 col-xs-12"
+          style="background-color: rgb(59, 56, 61)"
+        >
+          <p style="font-weight:bold; font-size: 30px">Rules</p>
           <ol>
             <li>
               You will be given a random number at the start of the game.
@@ -54,38 +57,38 @@
             </li>
           </ol>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-12 ">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <div id="crystal1" class="crystal">
                 <img src="assets/images/a.jpg" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <div id="crystal2" class="crystal">
                 <img src="assets/images/b.jpg" />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <div id="crystal3" class="crystal">
                 <img src="assets/images/c.jpg" />
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <div id="crystal4" class="crystal">
                 <img src="assets/images/d.jpg" />
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
-              <div id="display"></div>
-              <div id="sum"></div>
+            <div class="col-md-6 col-12">
+              <div id="display" class="result"></div>
+              <div id="sum" class="result"></div>
             </div>
-            <div class="col-md-6">
-              <div id="win"></div>
-              <div id="lose"></div>
+            <div class="col-md-6 col-12">
+              <div id="win" class="result">No of Wins : 0 </div>
+              <div id="lose" class="result">No of Losses : 0 </div>
             </div>
           </div>
         </div>

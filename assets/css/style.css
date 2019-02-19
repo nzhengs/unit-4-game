@@ -4,8 +4,8 @@ header img {
     margin-top: 10px;
 }
 body{
-    background-color:rgb(173, 130, 130);
-    color: burlywood;
+    background-color:rgb(59, 56, 61);
+    color: beige;
 }
 .navbar{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -21,5 +21,12 @@ body{
 .crystal>img{
     width:100px;
     height: 100px;
+    margin: 10px;
+}
+.result{
+    height: 60px;
+    background-color: rgb(31, 29, 29);
+    color: whitesmoke;
+    padding: 20px;
     margin: 10px;
 }
