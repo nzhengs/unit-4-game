@@ -10,7 +10,7 @@ body{
 .navbar{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: beige;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 5px;
     font-weight: bolder;
@@ -19,8 +19,8 @@ body{
     margin-top: 20px;
 }
 .crystal>img{
-    width:100px;
-    height: 100px;
+    width:90px;
+    height: auto;
     margin: 10px;
 }
 .result{

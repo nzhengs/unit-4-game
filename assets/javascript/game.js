@@ -15,26 +15,31 @@ $(".crystal").click(function() {
   var clickedCrystalId = this.id;
   var clickedValue = crystals[clickedCrystalId];
   sum = sum + clickedValue;
-  $("#sum").text("Your score :  " + " "+ sum);
+  $("#sum").text("Your score :  " + " " + sum);
   if (sum === guessNumber) {
     win = win + 1;
-    $("#win").text("No of Wins : " + win );
-
-    newGame();
+    $("#win").text("No of Wins : " + win);
+    askForNewGame("You won.");
   }
   if (sum > guessNumber) {
     lose = lose + 1;
-    $("#lose").text("No of Losses : " + lose );
-
-    newGame();
+    $("#lose").text("No of Losses : " + lose);
+    askForNewGame("You lost.");
   }
 });
+
+function askForNewGame(message) {
+  setTimeout(() => {
+    alert(message);
+    newGame();
+  });
+}
 
 //new game
 
 function newGame() {
   guessNumber = getRandomInt(19, 120);
-  $("#display").text("Your target score : "+" " + guessNumber);
+  $("#display").text("Your target score : " + " " + guessNumber);
   crystals = {
     crystal1: getRandomInt(1, 12),
     crystal2: getRandomInt(1, 12),
@@ -42,4 +47,5 @@ function newGame() {
     crystal4: getRandomInt(1, 12)
   };
   sum = 0;
+  $("#sum").text("Your score :  " + " " + sum);
 }
