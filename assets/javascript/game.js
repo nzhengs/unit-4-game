@@ -30,7 +30,8 @@ $(".crystal").click(function() {
 
 function askForNewGame(message) {
   setTimeout(() => {
-    alert(message);
+    $("#message").text(message);
+    $("#exampleModal").modal("show");
     newGame();
   });
 }

@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <script src="assets/javascript/jquery-3.3.1.slim.min.js"></script>
     <!-- <link
       rel="stylesheet"
@@ -10,6 +13,22 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     /> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -19,12 +38,12 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-light" style="background-color: #0b1820;">
-        <img src="assets/images/a.jpg" />
+      <nav class="navbar navbar-light" style="background-color: #0b1820">
+        <img src="assets/images/e.jpg" />
         <img src="assets/images/b.jpg" />
-        Crystal Collector
+        <p>Crystal Collector</p>
         <img src="assets/images/c.jpg" />
-        <img src="assets/images/d.jpg" />
+        <img src="assets/images/a.jpg" />
       </nav>
     </header>
     <div class="container">
@@ -87,10 +106,40 @@
               <div id="sum" class="result">Your score : 0</div>
             </div>
             <div class="col-md-6 col-12">
-              <div id="win" class="result">No of Wins : 0 </div>
-              <div id="lose" class="result">No of Losses : 0 </div>
+              <div id="win" class="result">No of Wins : 0</div>
+              <div id="lose" class="result">No of Losses : 0</div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="message" style="color:black"></h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          
+          
         </div>
       </div>
     </div>
